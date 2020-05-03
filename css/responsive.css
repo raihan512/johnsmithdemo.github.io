@@ -1,0 +1,311 @@
+/* // Extra Small devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+    
+    h1 {
+        font-size: 100px;
+    }
+    h1 span {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+    .section-padding{
+        padding: 45px 0px;
+    }    
+    .content-padding {
+        margin-top: 30px;
+    }
+
+    .menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .mobile-menu span i {
+        font-size: 25px;
+        padding: 10px 0px;
+    }
+
+    .closebtn {
+        right: 5%;
+        top: 5%;
+    }
+    .closebtn i {
+        font-size: 25px;
+    }
+    .overlay-content a {
+        margin-left: 30%;
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+
+    .home {
+        padding: 90px 0px 80px;
+    }
+
+    .home-content h4 {
+        margin-bottom: 25px;
+    }
+
+    .about-me {
+        text-align: center;
+    }
+    .services-item h4 {
+        margin: 15px 0px;
+    }
+    .services-item i {
+        height: 50px;
+        width: 50px;
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .testimonial-content .quote-left {
+        font-size: 8px;
+    }
+    .testimonial-content .quote-right {
+        font-size: 8px;
+    }
+    .testimonial-content p {
+        padding: 0px 10px;
+    }
+
+    .experience-title2 {
+        margin-top: 55px;
+    }
+
+    .experience-title1 {
+        margin-top: 55px;
+    }
+
+    .experience-title1::after {
+        right: -15px;
+        height: 35px;
+        width: 5px;
+    }
+    .experience-title2::after {
+        left: -15px;
+        height: 35px;
+        width: 5px;
+    }
+    .testimonial-title h4 {
+        margin-top: 30px;
+    }
+    .experience-item {
+        margin-bottom: 35px;
+    }
+    .blog-content {
+        text-align: center;
+    }
+    .blog-img {
+        margin-bottom: 15px;
+    }
+    .blog-details h5 {
+        margin-bottom: 10px;
+    }
+    .blog-details h6 {
+        margin-bottom: 15px;
+    }
+    .blog-item{
+        margin-bottom: 25px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 {
+        font-size: 120px;
+    }
+    h1 span {
+        font-size: 85px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+    .section-padding{
+        padding: 50px 0px;
+    }
+    
+
+    .menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .overlay-content a {
+        margin-left: 40%;
+        font-size: 25px;
+        padding: 10px 0px;
+    }
+    .mobile-menu span i {
+        font-size: 25px;
+        padding: 15px 0px;
+    }
+    .closebtn {
+        right: 5%;
+        top: 5%;
+    }
+    .closebtn i {
+        font-size: 25px;
+    }
+
+    .home {
+        padding: 90px 0px 80px;
+    }
+
+    .about-me {
+        text-align: center;
+    }
+
+   
+    .testimonial-content .quote-left {
+        font-size: 15px;
+    }
+    .testimonial-content .quote-right {
+        font-size: 15px;
+    }
+    .testimonial-content p {
+        padding: 0px 15px;
+    }
+    .testimonial-title h4 {
+        margin-top: 25px;
+    }
+    .experience-title1::after {
+        right: -20px;
+        top: 0;
+        height: 60px;
+        width: 10px;
+    }
+    .experience-title2::after {
+        left: -20px;
+        top: 0;
+        height: 60px;
+        width: 10px;
+    }
+    .experience-title1 h4,
+    .experience-title2 h4 {
+        font-size: 15px;
+    }
+    .blog-content {
+        text-align: center;
+    }
+    .blog-img {
+        margin-bottom: 15px;
+    }
+    .blog-details h5 {
+        margin-bottom: 10px;
+    }
+    .blog-details h6 {
+        margin-bottom: 15px;
+    }
+    .blog-item{
+        margin-bottom: 25px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-padding{
+        padding: 70px 0px;
+    }
+    .menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    h1 {
+        font-size: 120px;
+    }
+    h1 span {
+        font-size: 85px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+    .about-skill {
+        margin-top: 15px;
+    }
+    .skill-item {
+        margin-bottom: 10px;
+    }
+    .skillbar {
+        height: 10px;
+    }
+    .about-details-contact h6 {
+        margin-bottom: 5px;
+    }
+    .about-details-icon {
+        margin-right: 20px;
+    }
+    .about-details-icon i {
+        height: 65px;
+        width: 65px;
+        font-size: 25px;
+        line-height: 65px;
+    }
+    .services-item i {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .services-item h4 {
+        margin: 20px 0px;
+    }
+    .experience-title1 h4,
+    .experience-title2 h4 {
+        font-size: 15px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

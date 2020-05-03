@@ -1,0 +1,622 @@
+/*=====================
+Common CSS
+=====================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a:hover,
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 150px;
+    color: #ff0072;
+}
+h1 span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 100px;
+    color: #fff;
+    display: block;
+    line-height: 0.2;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #15263e;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #fff;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+}
+h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #a21af0;
+}
+
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+a{  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+.button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ff0072;
+    transition: 0.3s;
+}
+.button:hover{
+    color: #000;
+}
+h1,h2,h3,h4,h5,h6,a,p,ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+
+.section-padding{
+    padding: 90px 0px 150px;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading h2{
+    margin-bottom: 30px;
+}
+
+.content-padding{
+    margin-top: 70px;
+}
+/*=====================
+Common CSS
+=====================*/
+
+/*=====================
+Header Part Start
+=====================*/
+nav{
+    background: #15263e;
+}
+.menu{
+    text-align: center;
+}
+.menu li{
+    display: inline;
+}
+
+.menu li a {
+    display: inline-block;
+    padding: 30px 0px 25px !important;
+    margin-right: 40px;
+    position: relative;
+    transition: linear 0.3s;
+}
+.menu li:last-child a{
+    margin-right: 0;
+}
+.menu li:last-child a::after{
+    display: none;
+}
+.menu li a::after {
+    position: absolute;
+    content: '';
+    right: -20px;
+    top: 45px;
+    height: 3px;
+    width: 6px;
+    background: #fff;
+}
+
+.menu li a:hover{
+    color: #bc16e2;
+}
+.nav-link.active {
+	color: #bc16e2;
+}
+/*Mobile Menu*/
+.mobile-menu{
+    text-align: right;
+    display: none;
+}
+.mobile-menu span i{
+    color: #fff;
+    font-size: 30px;
+    padding: 20px 0px;
+    cursor: pointer;
+}
+
+.closebtn{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.closebtn i{
+    font-size: 30px;
+    color: #fff;
+}
+
+.overlay{
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 99;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay a:hover{
+    color: #bc16e2;
+}
+
+.overlay-content{
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: left;
+}
+.overlay-content a{
+    margin-left: 40%;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+/*Mobile Menu*/
+/*=====================
+Header Part End
+=====================*/
+
+/*=====================
+Home Part Start
+=====================*/
+.home{
+    padding: 125px 0px 110px;
+    background: url(../images/home-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.home-content{
+    text-align: center;
+}
+
+.home-content h1{
+    margin-bottom: 30px;
+}
+.home-content h3{
+    line-height: 0.3;
+}
+
+.home-content h4{
+    margin-bottom: 50px;
+}
+/*=====================
+Home Part End
+=====================*/
+
+/*=====================
+About Part Start
+=====================*/
+.about{
+    padding: 90px 0px 0px;
+}
+.about-me{
+    text-align: right;
+}
+.about-me h2{
+    margin-bottom: 10px;
+}
+.about-me h5{
+    margin-bottom: 25px;
+}
+
+.about-skill{
+    margin-top: 50px;
+}
+
+.skill-item{
+    margin-bottom: 20px;
+}
+.skill-tittle{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.skillbar{
+    position: relative;
+    height: 15px;
+    width: 100%;
+    border-radius: 30px;
+    background: #ccc;
+    overflow: hidden;
+}
+
+.skillbar-bar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width:  95%;
+    border-radius: 30px;
+    background: #ff0072;
+}
+.skillbar-bar-2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 90%;
+    border-radius: 30px;
+    background: #ff0072;
+}
+.skillbar-bar-3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 70%;
+    border-radius: 30px;
+    background: #ff0072;
+}
+
+.skillbar-bar-4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 60%;
+    border-radius: 30px;
+    background: #ff0072;
+}
+
+/*=====================
+About Part End
+=====================*/
+
+/*=====================
+About Details Part Start
+=====================*/
+.about-details{
+    padding: 30px 0px;
+    background: #dcdcde;
+}
+.about-details{
+    display: flex;
+    margin-bottom: 20px;
+}
+.about-details-icon{
+    text-align: center;
+    margin-right: 35px;
+}
+
+.about-details-icon i{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 35px;
+    background: #374362;
+    line-height: 90px; 
+}
+
+.about-details-contact h6{
+    margin-bottom: 15px;
+}
+/*=====================
+About Details Part End
+=====================*/
+
+/*=====================
+Services Part Start
+=====================*/
+.services{
+
+}
+
+.services-item{
+    text-align: center;
+}
+
+.services-item i{
+    height: 110px;
+    width: 110px;
+    background: #bd16e2;
+    font-size: 40px;
+    color: #fff;
+    line-height: 110px;
+    border-radius: 50%;
+}
+
+.services-item h4{
+    color: #4d4d4d;
+    margin: 30px 0px;
+}
+
+/*=====================
+Services Part End
+=====================*/
+
+/*=====================
+Testimonial Part Start
+=====================*/
+.testimonial{
+    background: url('../images/testimonial-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.testimonial .section-heading h2{
+    color: #fff;
+}
+
+.testimonial-content .quote-left{
+    color: #fff;
+    font-size: 30px;
+}
+.testimonial-content .quote-right{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+}
+
+.testimonial-content p{
+    color: #fff;
+    text-align: right;
+    padding: 0px 50px;
+}
+
+.testimonial-img img{
+    margin-top: 30px;
+}
+
+
+.testimonial-title h4{
+    margin-top: 75px;
+}
+.testimonial-title p{
+    margin-top: 10px;
+    color: #bc16e2;
+}
+/*=====================
+Testimonial Part End
+=====================*/
+
+/*=====================
+Portfolio Part Start
+=====================*/
+.portfolio{}
+
+.portfolio-button button{
+    display: flex;
+    border: 0;
+    background: transparent;
+    padding: 10px 0px;
+    font-size: 22px;
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.portfolio-button button:first-child{
+    padding-top: 0px;
+}
+.portfolio-button button:hover{
+    color: #bc16e2;
+}
+
+.portfolio-content .portfolio-item {
+    margin-bottom: 20px;
+}
+.mixitup-control-active {
+	color: #bc16e2 !important;
+}
+/*=====================
+Portfolio Part End
+=====================*/
+
+/*=====================
+Experience Part Start
+=====================*/
+.experience{
+    background: #ff0072; 
+}
+
+.experience .section-heading h2,
+.experience .section-heading h6{
+    color: #fff;
+}
+
+.experience-item{
+    margin-bottom: 90px;
+}
+.experience-item:last-child{
+    margin-bottom: 0;
+}
+.experience-title1{
+    text-align: end;
+    position: relative;
+}
+.experience-title1 h4{
+    margin-bottom: 10px;
+}
+
+.experience-title1 h5{
+    color: #fff;
+}
+.experience-title1::after {
+    position: absolute;
+    content: '';
+    right: -60px;
+    top: 0;
+    height: 60px;
+    width: 15px;
+    background: #dcdcde;
+}
+.experience-title2{
+    text-align: end;
+    position: relative;
+}
+.experience-title2 h4{
+    margin-bottom: 10px;
+}
+
+.experience-title2 h5{
+    color: #fff;
+}
+.experience-title2::after {
+    position: absolute;
+    content: '';
+    left: -60px;
+    top: 0;
+    height: 60px;
+    width: 15px;
+    background: #dcdcde;
+}
+
+.experience-details p{
+    color: #fff;
+}
+.experience-details2 p{
+    color: #fff;
+    text-align: right;
+}
+/*=====================
+Experience Part End
+=====================*/
+
+/*=====================
+Blog Part Start
+=====================*/
+.blog{}
+
+.blog-img{
+    margin-bottom: 35px;
+}
+
+.blog-details h5{
+    font-size: 15px;
+    color: #dcdcde;
+    margin-bottom: 20px;
+}
+
+.blog-details h6{
+    color: #15263e;
+    margin-bottom: 20px;
+}
+/*=====================
+Blog Part End
+=====================*/
+
+/*=====================
+Contact Part Start
+=====================*/
+.contact{
+    background: #15263e;
+}
+.contact .section-heading h2,
+.contact .section-heading h6{
+    color: #fff;
+} 
+.contact-content{
+    text-align: center;
+}
+.contact-content .form-control {
+	height: 55px;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+.contact-content textarea.form-control{
+    height: 200px;
+    resize: none;
+}
+
+.contact-content button{
+    border: 0;
+    background: #ff0072;
+    color: #fff;
+    padding: 20px 30px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.contact-content button:hover{
+    color: #000;
+}
+/*=====================
+Contact Part End
+=====================*/
+
+/*=====================
+Footer Part Start
+=====================*/
+footer{
+    padding: 50px 0px;
+    text-align: center;
+}
+/*=====================
+Footer Part End
+=====================*/
